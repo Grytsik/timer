@@ -1,0 +1,19 @@
+@import '../../styles/themeStyle.scss';
+
+.card {
+  width: 18em;
+	text-align: center;
+}
+
+.card.dark {
+  background: $bg-card-color-dark;
+  box-shadow: 1px 1px 10px $shadow-box-color-dark;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}

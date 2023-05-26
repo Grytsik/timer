@@ -1,0 +1,24 @@
+//Стили для светлой темы
+$bg-color-light: #e9ecef;
+$bg-color-main-light: #fff;
+$color-light: #23262b;
+$shadow-box-color-light: #fff;
+$border-color-black: #000;
+
+//Стили для темной темы
+$bg-color-dark: #23262b;
+$color-dark: #fff;
+$shadow-box-color-dark: #fff;
+$bg-card-color-dark: #373737;
+$border-color-white: #fff;
+
+
+.light {
+	background:$bg-color-main-light;
+	color: $color-light;
+}
+
+.dark {
+	background: $bg-color-dark;
+	color: $color-dark;
+}

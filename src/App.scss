@@ -1,0 +1,22 @@
+@import '../src/styles/themeStyle.scss';
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timer__main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}

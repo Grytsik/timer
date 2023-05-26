@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import DateTime from './сomponents/DateTime/DateTime';
+import InputForm from './сomponents/InputForm/InputForm';
+import Timer from './сomponents/Timer/Timer';
+import './App.scss';
 
-function App() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './сomponents/Header/Header';
+import switchTheme from './store/switchTheme';
+import { observer } from 'mobx-react-lite';
+
+const App = observer(() => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${switchTheme.theme}`}>
+      <Header />
+      <div className="container">
+        <div className="timer__main">
+          <InputForm />
+          <DateTime />
+        </div>
+        <Timer />
+      </div>
     </div>
   );
-}
+});
 
 export default App;

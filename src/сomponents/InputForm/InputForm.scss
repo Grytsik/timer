@@ -1,0 +1,10 @@
+@import '../../styles/themeStyle.scss';
+
+.inputForm {
+  width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+  &.dark {
+    box-shadow: 1px 1px 10px $shadow-box-color-dark;
+  }
+}

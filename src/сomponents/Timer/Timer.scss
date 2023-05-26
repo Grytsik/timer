@@ -1,0 +1,19 @@
+@import '../../styles/themeStyle.scss';
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.timer__item {
+  margin-left: 35px;
+  margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.modal {
+	text-align: center;
+}
