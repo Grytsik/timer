@@ -2,7 +2,6 @@ import { makeAutoObservable } from "mobx";
 
 //Стор для изменения темы
 class switchThemeClass {
-	// theme = 'light';
 	theme = localStorage.getItem('theme') || 'light';
 
 	constructor() {

@@ -60,24 +60,3 @@ const Timer = observer(() => {
 
 export default Timer;
 
-// {
-//   item.showModal && (
-//     <Modal
-//       show={item.showModal}
-//       onHide={() => handleShowModal(item)}
-//     >
-//       <Modal.Header closeButton>
-//         <Modal.Title>Timer</Modal.Title>
-//       </Modal.Header>
-//       <Modal.Body>{item.inputText}</Modal.Body>
-//       <Modal.Footer>
-//         <Button
-//           variant="secondary"
-//           onClick={() => handleShowModal(item)}
-//         >
-//           Close
-//         </Button>
-//       </Modal.Footer>
-//     </Modal>
-//   );
-// }
